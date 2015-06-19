@@ -15,6 +15,11 @@
                     <view key="view" contentMode="scaleToFill" id="kJO-mv-CE3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="start.png" translatesAutoresizingMaskIntoConstraints="NO" id="KPa-T2-vqG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="Entypo_d83d(8)_48.png" id="EM8-cb-PCQ" customClass="RAMAnimatedTabBarItem" customModule="AutoMath" customModuleProvider="target">
@@ -26,7 +31,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tVg-6L-Wlr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="4zS-os-jxL" customClass="RAMFlipTopTransitionItemAniamtions" customModule="AutoMath" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="1251" y="1515"/>
+            <point key="canvasLocation" x="362" y="1330"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hej-RA-d7b">
@@ -55,7 +60,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Plj-pr-vC4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="O5a-5o-idg" customClass="RAMFlipTopTransitionItemAniamtions" customModule="AutoMath" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="255" y="1027"/>
+            <point key="canvasLocation" x="-129.5" y="818.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="imx-Wb-Cpl">
@@ -87,7 +92,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nXe-u9-MiB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="ij2-kd-Wc2" customClass="RAMFlipTopTransitionItemAniamtions" customModule="AutoMath" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="1279" y="-171"/>
+            <point key="canvasLocation" x="254.5" y="-203.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nud-Tm-Y9w">
@@ -116,7 +121,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CHT-Na-8SH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="xSP-fk-AHj" customClass="RAMFlipTopTransitionItemAniamtions" customModule="AutoMath" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="1431" y="761"/>
+            <point key="canvasLocation" x="374.5" y="472.5"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="Juo-lN-CvI">
@@ -140,13 +145,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R5H-Py-oTH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="hH2-4X-3Gi" customClass="RAMFlipTopTransitionItemAniamtions" customModule="AutoMath" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="1807" y="743"/>
+            <point key="canvasLocation" x="694.5" y="78.5"/>
         </scene>
         <!--Animated Tab Bar Controller-->
         <scene sceneID="K16-F6-j5a">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="w0e-0C-YgU" customClass="RAMAnimatedTabBarController" customModule="AutoMath" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="cnL-4Z-UQf"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="AYB-wE-FhB">
                         <autoresizingMask key="autoresizingMask"/>
@@ -162,7 +168,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RmU-cK-Oay" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29" y="88"/>
+            <point key="canvasLocation" x="-179.5" y="27.5"/>
         </scene>
     </scenes>
     <resources>
@@ -171,5 +177,6 @@
         <image name="Entypo_270e(9)_48.png" width="48" height="48"/>
         <image name="Entypo_d83d(3)_48.png" width="48" height="48"/>
         <image name="Entypo_d83d(8)_48.png" width="48" height="48"/>
+        <image name="start.png" width="329" height="71"/>
     </resources>
 </document>

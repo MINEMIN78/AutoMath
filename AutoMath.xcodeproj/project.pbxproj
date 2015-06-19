@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752241111B348463000A15C6 /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = 752241101B348463000A15C6 /* front.png */; };
+		754395311B3312690056460B /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 754395301B3312690056460B /* start.png */; };
+		754395331B33134B0056460B /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 754395321B33134B0056460B /* title.png */; };
 		75BA48EC1B2EE6860022DD48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BA48EB1B2EE6860022DD48 /* AppDelegate.swift */; };
 		75BA48EE1B2EE6860022DD48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BA48ED1B2EE6860022DD48 /* ViewController.swift */; };
 		75BA48F11B2EE6860022DD48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BA48EF1B2EE6860022DD48 /* Main.storyboard */; };
@@ -52,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		752241101B348463000A15C6 /* front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = front.png; sourceTree = "<group>"; };
+		754395301B3312690056460B /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		754395321B33134B0056460B /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 		75BA48E61B2EE6860022DD48 /* AutoMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75BA48EA1B2EE6860022DD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75BA48EB1B2EE6860022DD48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +153,9 @@
 				75E5CCA21B301DFF0062424E /* Entypo_d83d(6)_48.png */,
 				75E5CCA31B301DFF0062424E /* Entypo_d83d(7)_48.png */,
 				75E5CCA41B301DFF0062424E /* Entypo_d83d(8)_48.png */,
+				752241101B348463000A15C6 /* front.png */,
+				754395321B33134B0056460B /* title.png */,
+				754395301B3312690056460B /* start.png */,
 				75BA48ED1B2EE6860022DD48 /* ViewController.swift */,
 				75E5CCF51B30A1F70062424E /* firsttab.swift */,
 				75E5CCF71B30A39B0062424E /* secondtab.swift */,
@@ -328,6 +337,8 @@
 			files = (
 				75E5CCAF1B301DFF0062424E /* Entypo_d83d(3)_48.png in Resources */,
 				75BA48F11B2EE6860022DD48 /* Main.storyboard in Resources */,
+				754395331B33134B0056460B /* title.png in Resources */,
+				754395311B3312690056460B /* start.png in Resources */,
 				75E5CCA51B301DFF0062424E /* Entypo_270e(9)_48.png in Resources */,
 				75E5CCB01B301DFF0062424E /* Entypo_d83d(4)_48.png in Resources */,
 				75E5CCAD1B301DFF0062424E /* Entypo_d83d(1)_48.png in Resources */,
@@ -339,6 +350,7 @@
 				75E5CCB21B301DFF0062424E /* Entypo_d83d(6)_48.png in Resources */,
 				75E5CCB11B301DFF0062424E /* Entypo_d83d(5)_48.png in Resources */,
 				75E5CCAC1B301DFF0062424E /* Entypo_d83c(0)_48.png in Resources */,
+				752241111B348463000A15C6 /* front.png in Resources */,
 				75BA48F61B2EE6860022DD48 /* LaunchScreen.xib in Resources */,
 				75E5CCB31B301DFF0062424E /* Entypo_d83d(7)_48.png in Resources */,
 				75BA48F31B2EE6860022DD48 /* Images.xcassets in Resources */,
