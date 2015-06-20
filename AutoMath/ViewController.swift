@@ -9,37 +9,44 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    var logoImageView: UIImageView!
 
+    
+    var logoimageView:UIImageView!
+    var scale:CGFloat = 1.0
+    var width:CGFloat = 0
+    var height:CGFloat = 0
+    var screenWidth:CGFloat = 0
+    var screenHeight:CGFloat = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
+        // Screen Size の取得
+        screenWidth = self.view.bounds.width
+        screenHeight = self.view.bounds.height
         
-        //起動画面
-        self.view.backgroundColor = UIColor.whiteColor()
+        // UIImage インスタンスの生成
+        let image:UIImage! = UIImage(named:"front.png")
         
-            //imageview作成
-            self.logoImageView = UIImageView(frame: CGRectMake(0, 0, 1242, 2208))
-            //画面centerに
-            self.logoImageView.center = self.view.center
-            //logo設定
-            self.logoImageView.image = UIImage(named: "front.png")
-            //viewに追加
-            self.view.addSubview(self.logoImageView)
+        // 画像の幅・高さの取得
+        width = image!.size.width
+        height = image!.size.height
         
+        // UIImageView インスタンス生成
+        logoimageView = UIImageView(image:image)
         
-        //色
-        let colorKey = UIColor(red: 255/255, green: 0/255, blue: 0/255, alpha: 1.0)
-        let colorBg = UIColor(red: 0/255, green: 255/255, blue: 0/255, alpha: 1.0)
-        //        let fontFamily: UIFont! = UIFont(name: "Hiragino Kaku Gothic ProN",size:10)?
+        // 画像サイズをスクリーン幅に合わせる
+        scale = screenWidth / width
+        var rect:CGRect = CGRectMake(0, 0, width*scale, height*scale)
         
-        UITabBar.appearance().tintColor = colorKey
-        UITabBar.appearance().barTintColor = colorBg
+        // ImageView frame をCGRectMakeで作った矩形に合わせる
+        logoimageView!.frame = rect;
         
+        // 画像の中心を187.5, 333.5 の位置に設定、iPhone6のケース
+        logoimageView!.center = CGPointMake(187.5, 333.5)
         
-        
+        // view に ImageView を追加する
+        self.view.addSubview(logoimageView!)
         
 
         
@@ -53,7 +60,7 @@ class ViewController: UIViewController {
             delay: 1.0,
             options: UIViewAnimationOptions.CurveEaseOut,
             animations: { () in
-                self.logoImageView.transform = CGAffineTransformMakeScale(0.9, 0.9)
+                self.logoimageView.transform = CGAffineTransformMakeScale(0.9, 0.9)
             }, completion: { (Bool) in
                 
         })
@@ -63,10 +70,10 @@ class ViewController: UIViewController {
             delay: 1.3,
             options: UIViewAnimationOptions.CurveEaseOut,
             animations: { () in
-                self.logoImageView.transform = CGAffineTransformMakeScale(1.2, 1.2)
-                self.logoImageView.alpha = 0
+                self.logoimageView.transform = CGAffineTransformMakeScale(1.2, 1.2)
+                self.logoimageView.alpha = 0
             }, completion: { (Bool) in
-                self.logoImageView.removeFromSuperview()
+                self.logoimageView.removeFromSuperview()
         })        
     }
     

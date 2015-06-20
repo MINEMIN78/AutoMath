@@ -40,8 +40,6 @@
 		75E5CCB31B301DFF0062424E /* Entypo_d83d(7)_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E5CCA31B301DFF0062424E /* Entypo_d83d(7)_48.png */; };
 		75E5CCB41B301DFF0062424E /* Entypo_d83d(8)_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E5CCA41B301DFF0062424E /* Entypo_d83d(8)_48.png */; };
 		75E5CCF41B30A1B40062424E /* TabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E5CCF31B30A1B40062424E /* TabBarDelegate.swift */; };
-		75E5CCF61B30A1F70062424E /* firsttab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E5CCF51B30A1F70062424E /* firsttab.swift */; };
-		75E5CCF81B30A39B0062424E /* secondtab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E5CCF71B30A39B0062424E /* secondtab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,8 +90,6 @@
 		75E5CCA31B301DFF0062424E /* Entypo_d83d(7)_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Entypo_d83d(7)_48.png"; sourceTree = "<group>"; };
 		75E5CCA41B301DFF0062424E /* Entypo_d83d(8)_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Entypo_d83d(8)_48.png"; sourceTree = "<group>"; };
 		75E5CCF31B30A1B40062424E /* TabBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarDelegate.swift; path = ../TabBarDelegate.swift; sourceTree = "<group>"; };
-		75E5CCF51B30A1F70062424E /* firsttab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firsttab.swift; sourceTree = "<group>"; };
-		75E5CCF71B30A39B0062424E /* secondtab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondtab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +153,6 @@
 				754395321B33134B0056460B /* title.png */,
 				754395301B3312690056460B /* start.png */,
 				75BA48ED1B2EE6860022DD48 /* ViewController.swift */,
-				75E5CCF51B30A1F70062424E /* firsttab.swift */,
-				75E5CCF71B30A39B0062424E /* secondtab.swift */,
 				75E5CCF31B30A1B40062424E /* TabBarDelegate.swift */,
 				75BA48EF1B2EE6860022DD48 /* Main.storyboard */,
 				75BA48F21B2EE6860022DD48 /* Images.xcassets */,
@@ -375,7 +369,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				75E5CC361B300D600062424E /* RAMTransitionItemAnimation.swift in Sources */,
-				75E5CCF81B30A39B0062424E /* secondtab.swift in Sources */,
 				75E5CC381B300D600062424E /* RAMItemAnimationProtocol.swift in Sources */,
 				75E5CCF41B30A1B40062424E /* TabBarDelegate.swift in Sources */,
 				75E5CC371B300D600062424E /* RAMAnimatedTabBarController.swift in Sources */,
@@ -385,7 +378,6 @@
 				75BA48EE1B2EE6860022DD48 /* ViewController.swift in Sources */,
 				75BA48EC1B2EE6860022DD48 /* AppDelegate.swift in Sources */,
 				75E5CC351B300D600062424E /* RAMRotationAnimation.swift in Sources */,
-				75E5CCF61B30A1F70062424E /* firsttab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

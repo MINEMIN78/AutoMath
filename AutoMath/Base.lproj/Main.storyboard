@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--First View Controller-->
+        <!--View Controller-->
         <scene sceneID="bIi-dZ-iXa">
             <objects>
-                <viewController id="Ncn-KD-uJr" customClass="FirstViewController" customModule="AutoMath" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ncn-KD-uJr" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bb1-fo-wgX"/>
                         <viewControllerLayoutGuide type="bottom" id="Fhi-Kl-75Z"/>
@@ -31,7 +31,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tVg-6L-Wlr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="4zS-os-jxL" customClass="RAMFlipTopTransitionItemAniamtions" customModule="AutoMath" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="362" y="1330"/>
+            <point key="canvasLocation" x="-54" y="568"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hej-RA-d7b">
@@ -60,7 +60,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Plj-pr-vC4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="O5a-5o-idg" customClass="RAMFlipTopTransitionItemAniamtions" customModule="AutoMath" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="-129.5" y="818.5"/>
+            <point key="canvasLocation" x="88" y="790"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="imx-Wb-Cpl">
@@ -121,12 +121,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CHT-Na-8SH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="xSP-fk-AHj" customClass="RAMFlipTopTransitionItemAniamtions" customModule="AutoMath" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="374.5" y="472.5"/>
+            <point key="canvasLocation" x="174" y="-32"/>
         </scene>
-        <!--Second View Controller-->
+        <!--View Controller-->
         <scene sceneID="Juo-lN-CvI">
             <objects>
-                <viewController id="oGK-hj-cmN" customClass="SecondViewController" customModule="AutoMath" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oGK-hj-cmN" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ck3-pJ-Cbc"/>
                         <viewControllerLayoutGuide type="bottom" id="FIh-nq-hpy"/>
@@ -145,7 +145,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R5H-Py-oTH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="hH2-4X-3Gi" customClass="RAMFlipTopTransitionItemAniamtions" customModule="AutoMath" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="694.5" y="78.5"/>
+            <point key="canvasLocation" x="569" y="27"/>
         </scene>
         <!--Animated Tab Bar Controller-->
         <scene sceneID="K16-F6-j5a">
@@ -168,7 +168,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RmU-cK-Oay" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-179.5" y="27.5"/>
+            <point key="canvasLocation" x="-472" y="205"/>
         </scene>
     </scenes>
     <resources>
